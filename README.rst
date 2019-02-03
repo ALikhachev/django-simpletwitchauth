@@ -16,10 +16,13 @@ Features
 Installation
 ------------
 
-Ensure that `Django â€˜sitesâ€™ framework`_ is enabled.
+Ensure that `Django ‘sites’ framework`_ is enabled.
 
-Python package:
-~~~~~~~~~~~~~~~
+Python package |Downloads|
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. |Downloads| image:: https://pepy.tech/badge/django-simpletwitchauth
+   :target: https://pepy.tech/project/django-simpletwitchauth
 
 ::
 
@@ -83,5 +86,5 @@ Usage
 -  Run migrations to create database tables for entities.
 -  Add somewhere in your templates link to url ``login_twitch``
 
-.. _Django â€˜sitesâ€™ framework: https://docs.djangoproject.com/en/1.11/ref/contrib/sites/
+.. _Django ‘sites’ framework: https://docs.djangoproject.com/en/1.11/ref/contrib/sites/
 .. _Twitch application: https://www.twitch.tv/settings/connections
